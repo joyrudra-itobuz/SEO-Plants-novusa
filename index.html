@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <title>Name Me</title>
+  </head>
+  <body>
+    <header class="">
+      <nav class="flex justify-between xl:px-20 xl:py-12 px-5 py-3">
+        <div class="flex md:gap-28 nav-container-menu">
+          <button class="md:hidden my-auto menu-btn">
+            <img
+              class="w-10 lg:w-auto"
+              src="./assets/images/navbar/menu-hamgurger.svg"
+              alt=""
+            />
+          </button>
+          <h3 class="text-[30px]">
+            My<span class="text-[#3E8847]"> Plants</span>
+          </h3>
+          <ul class="hidden md:flex md:gap-14 my-auto">
+            <a href="">
+              <li>About</li>
+            </a>
+            <a href="">
+              <li>Shop</li>
+            </a>
+            <a href="">
+              <li>Plants</li>
+            </a>
+            <a href="">
+              <li>Delivery</li>
+            </a>
+            <a href="">
+              <li>Help</li>
+            </a>
+          </ul>
+        </div>
+        <div class="flex lg:gap-10 gap-5 nav-container-dashboard">
+          <div
+            class="flex md:border-[2px] md:rounded-3xl gap-2 border-[2px] px-2 rounded-3xl"
+          >
+            <input
+              type="text"
+              class="w-28 text-[14px] xl:w-64 xl:px-10 bg-transparent"
+              placeholder="Search Product"
+            />
+            <img
+              class="w-5 xl:w-auto"
+              src="./assets/images/navbar/search.svg"
+              alt=""
+            />
+          </div>
+          <img
+            class="w-5 xl:w-auto"
+            src="./assets/images/navbar/add-user.svg"
+            alt=""
+          />
+          <img
+            class="w-5 xl:w-auto"
+            src="./assets/images/navbar/bag.svg"
+            alt=""
+          />
+        </div>
+      </nav>
+      <ul
+        class="hidden my-auto sm-dropdown-menu flex flex-col items-start gap-16 text-xl py-5 px-5 sm-dropdown-menu-closing-animation"
+      >
+        <li class="ml-auto mb-[-7rem]">
+          <button class="w-20 menu-close-btn">
+            <img class="" src="./assets/images/navbar/navbar-exit.svg" alt="" />
+          </button>
+        </li>
+        <a href="">
+          <li class="flex justify-between">About</li>
+        </a>
+        <a href="">
+          <li>Shop</li>
+        </a>
+        <a href="">
+          <li>Plants</li>
+        </a>
+        <a href="">
+          <li>Delivery</li>
+        </a>
+        <a href="">
+          <li>Help</li>
+        </a>
+      </ul>
+    </header>
+    <section
+      class="love-nature flex flex-col items-center sm:flex-row sm:justify-between sm:items-start p-10 xl:p-0"
+    >
+      <div
+        class="ml-5 xl:ml-20 mr-5 xl:mr-[-10rem] sm:w-[50%] xl:w-[-30%] 2xl:w-[30%] love-nature-left"
+      >
+        <div class="leaf hidden lg:block">
+          <img
+            class="rotate-[-5deg] m-auto xl:m-0"
+            src="./assets/images/love-nature/love-nature.svg"
+            alt=""
+          />
+          <p class="flex gap-3 justify-center xl:justify-start">
+            <img class="" src="./assets/images/love-nature/dash.svg" alt="" />
+            <span>Love nature</span>
+          </p>
+        </div>
+        <p
+          class="take-a-new text-5xl xl:text-[4.75rem] xl:mr-[-3rem] lg:py-14 2xl:py-24 text-center lg:text-start"
+        >
+          Take a new friend to your home
+        </p>
+        <div class="flex justify-between my-5 m">
+          <button
+            class="text-xl px-3 xl:px-12 2xl:px-16 2xl:py-2 py-1 xl:py-1 border-[2px] bg-[#09270D] text-white rounded-full hover:text-[#09270D] hover:bg-white border-[#09270D] transition-all duration-300"
+          >
+            Plant Care
+          </button>
+          <button
+            class="text-xl px-3 xl:px-12 2xl:px-16 2xl:py-2 py-1 xl:py-1 border-[2px] bg-[#09270D] text-white rounded-full hover:text-[#09270D] hover:bg-white border-[#09270D] transition-all duration-300"
+          >
+            Buy A Plant
+          </button>
+        </div>
+      </div>
+      <div
+        class="swiper mySwiper sm:w-[50%] xl:w-[70%] 2xl:w-[70%] love-nature-right xl:pr-20"
+      >
+        <div class="swiper-wrapper">
+          <img
+            class="swiper-slide"
+            src="./assets/images/love-nature/swiper-slide-3.jpg"
+            alt=""
+          />
+          <img
+            class="swiper-slide"
+            src="./assets/images/love-nature/swiper-slide-2.jpg"
+            alt=""
+          />
+          <img
+            class="swiper-slide"
+            src="./assets/images/love-nature/swiper-slide-4.jpg"
+            alt=""
+          />
+          <img
+            class="swiper-slide"
+            src="./assets/images/love-nature/swiper-slide-5.jpg"
+            alt=""
+          />
+          <img
+            class="swiper-slide"
+            src="./assets/images/love-nature/swiper-slide-6.jpg"
+            alt=""
+          />
+          <img
+            class="swiper-slide"
+            src="./assets/images/love-nature/swiper-slide-7.jpg"
+            alt=""
+          />
+          <img
+            class="swiper-slide"
+            src="./assets/images/love-nature/swiper-slide-8.jpg"
+            alt=""
+          />
+          <img
+            class="swiper-slide"
+            src="./assets/images/love-nature/swiper-slide-2.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section
+      class="hero-icon-container flex justify-center gap-10 xl:justify-start xl:mt-[-4rem] xl:px-20"
+    >
+      <a href=""
+        ><img src="./assets/images/love-nature/facebook.svg" alt="" /></a
+      ><a href=""
+        ><img src="./assets/images/love-nature/instagram.svg" alt="" /></a
+      ><a href=""
+        ><img src="./assets/images/love-nature/pinterest.svg" alt=""
+      /></a>
+    </section>
+    <section class="swiper mySwiper2 mt-40 m-10 xl:m-20">
+      <h3 class="text-center text-3xl xl:text-5xl font-extrabold mb-10">
+        Plants Collection
+      </h3>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide lg:m-20">
+          <img
+            class=""
+            src="./assets/images/plants-collection/plants-collections-slide-1.jpg"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide lg:m-20">
+          <img
+            class=""
+            src="./assets/images/plants-collection/plants-collections-slide-2.jpg"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide lg:m-20">
+          <img
+            class=""
+            src="./assets/images/plants-collection/plants-collections-slide-3.jpg"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide lg:m-20">
+          <img
+            class=""
+            src="./assets/images/plants-collection/plants-collections-slide-4.jpg"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide lg:m-20">
+          <img
+            class=""
+            src="./assets/images/plants-collection/plants-collections-slide-5.jpg"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide lg:m-20">
+          <img
+            class=""
+            src="./assets/images/plants-collection/plants-collections-slide-6.jpg"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide lg:m-20">
+          <img
+            src="./assets/images/plants-collection/plants-collections-slide-7.jpg"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide lg:m-20">
+          <img
+            src="./assets/images/plants-collection/plants-collections-slide-8.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

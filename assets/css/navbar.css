@@ -1,0 +1,72 @@
+nav div > input {
+  font-family: "Poppins", sans-serif;
+}
+nav div > input:focus-visible {
+  outline: none;
+}
+
+ul li {
+  transition: color 0.3s;
+}
+ul li:hover {
+  color: rgb(188, 255, 164);
+}
+
+nav ul li {
+  transition: color 0.3s;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+nav ul li:hover {
+  color: rgb(0, 115, 255) !important;
+}
+
+.sm-dropdown-menu {
+  position: fixed;
+  top: 0;
+  color: white;
+  width: 60vw;
+  height: 100vh;
+  background-color: rgb(31, 116, 64);
+  z-index: 999;
+}
+
+.sm-dropdown-menu-animation {
+  animation-name: sm-dropdown-menu-animation;
+  animation-duration: 0.5s;
+}
+
+@keyframes sm-dropdown-menu-animation {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.sm-dropdown-menu-closing-animation {
+  animation-name: sm-dropdown-menu-closing-animation;
+  animation-duration: 0.5s;
+}
+
+@keyframes sm-dropdown-menu-closing-animation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  html body .nav-container-menu {
+    gap: 2rem;
+  }
+  html body .nav-container-menu ul {
+    gap: 1rem;
+  }
+  html body nav {
+    padding: 2rem 2rem;
+  }
+}

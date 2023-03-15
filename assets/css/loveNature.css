@@ -1,0 +1,22 @@
+.love-nature {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.leaf p {
+  margin-top: -4.5rem;
+}
+
+.take-a-new {
+  font-family: "Playfair Display", serif;
+  color: #3e8847;
+}
+
+.love-nature-left,
+.love-nature-right {
+  z-index: 99;
+}
+
+.love-nature-right img {
+  border-radius: 2rem;
+}
